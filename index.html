@@ -1,14 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nirmaan Organization</title>
 </head>
 <style>
+    body {
+        /* background-color: rgb(235, 228, 228); */
+        font-family: "Calibri";
+    }
 
+    p {
+        font-size: 20px;
+    }
+
+    #info {
+        text-align: center;
+    }
+
+    .info_img {
+        margin: 10px;
+    }
+
+    figure {
+        display: inline-block;
+
+    }
+
+    #course_indi {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+    }
+
+    th,
+    td,
+    tr {
+
+        border: 2px solid black;
+    }
 </style>
+
 <body>
-    <h1>Nirmaan Organization</h1>
+    <center><img src="files/images/nirmaan.png" alt="Nirmaan Logo" /></center>
+    <!-- behavior: scroll:text will be scrolled continous, slide:text slided from one side and stops at the end, alternate: text will be tilted in the screen back and forth; -->
+    <marquee behavior="scroll" direction="left">
+        <a href="https://nirmaan.org/"> Nirmaan Organization is a NGO </a>
+    </marquee>
+    <hr style="border: 4px solid black" />
+
+    <span style="margin: 20px">
+        <a href="https://nirmaan.org/">Home</a>
+        <a href="https://nirmaan.org/about-us/">About</a>
+        <a href="https://nirmaan.org/education-page/">Services</a>
+        <a href="https://nirmaan.org/contact-us/">Contact</a>
+    </span>
+
+    <h2 id="info">hello, I am Varun K V</h2>
+    <p style="text-align: center; font-family: 'calibri'; font-size: 20px">
+        This Website is all about Website Developlment, Technical Tips and Designs
+        Principle, Source Code and Programming Videos.
+    </p>
+
+    <div>
+        <button>See my works</button>
+        <button>Visit youtube</button>
+    </div>
+    <div class="info_img">
+        <img width="" src="files/images/anonymous.png" alt="anonymous" />
+
+        <iframe width="300" height="225" src="https://www.youtube.com/embed/ZJ7wTmIA-9U?si=GjgY-15MoPNn7gIX"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <video width="360" height="245" src="files/videos/ngo day.mp4" controls></video>
+
+        <img width="350" height="225" src="files/images/Capture1112.png" alt="captured image" usemap="#maps" />
+        <map name="maps">
+            <area shape="rect" coords="222,151,253,182" href="https://www.youtube.com/watch?v=uDayXtBgHaw"
+                alt="mapping to video" />
+        </map>
+    </div>
+
+    <u style="font-size: 25px"><b>About Nirmaan 👍 </b></u>
+
+    <p>It's great to meet you! I'm from nirmaan</p>
+    <p>
+        nirmaan is a Organization for learning web developlment. Their tutorials
+        are easy to follow and enjoyable. By watching their videos, you can learn
+        the skills needed for a web developlment job. Check out to boost your
+        chances of getting hired in this field!
+    </p>
+
+
+    <b style="font-size: 20px; ">coding Knowledge</b>
+
+    <div id="course_indi">
+
+        <div>
+            <label for="HTML">HTML CODE:</label>
+            <progress value="90" max="100"></progress>
+        </div>
+        <div>
+            <label for="HTML">CSS CODE:</label>
+            <progress value="90" max="100"></progress>
+        </div>
+        <div>
+            <label for="HTML">JavaScript Code:</label>
+            <progress value="90" max="100"></progress>
+        </div>
+        <div>
+            <label for="HTML">MERN Code:</label>
+            <progress style="color: blue" value="90" max="100"></progress>
+        </div>
+    </div>
+    <details>
+        <summary>
+            <u style="font-size: 25px;color: greenyellow;">Our Services</u>
+        </summary>
+        <figure>
+            <img width="170" height="200" src="files/images/data_analytics.png" alt="DA">
+            <figcaption>Data Analytics</figcaption>
+        </figure>
+        <figure>
+            <img width="170" height="200" src="files/images/ites.jpg" alt="ITES">
+            <figcaption>ITES</figcaption>
+        </figure>
+        <figure>
+            <img width="170" height="200" src="files/images/javafull.png" alt="JAVA">
+            <figcaption>Java FullStack</figcaption>
+        </figure>
+        <figure>
+            <img width="170" height="200" src="files/images/mobile-app-.jpg" alt="MAD">
+            <figcaption>Mobile App Developlment</figcaption>
+        </figure>
+        <figure>
+            <img width="170" height="200" src="files/images/python.png" alt="python">
+            <figcaption>Python</figcaption>
+        </figure>
+    </details>
+
+    <h2>Our Blogs</h2>
+
+    <h2>Elevate Your Web Developlment Skills with Nirmaan</h2>
+
+    <p>
+        <b><i> Nirmaan Organization </i> </b>is an NGO for learning web develpoment. Their tutorials are easy to follow
+        and
+        enjoyable. By watching the videos, you can learn the skills needed for a web developlment job. Check out to
+        boost your chance of getting hired in this field!
+    </p>
+
+    <h2>
+        <u>Our Batch Timing</u>
+    </h2>
+
+    <div style="background-color: red; width: 720px; text-align: center; margin:auto;">
+        <h1>Batch Timings</h1>
+        <progress></progress>
+        <table>
+            <thead>
+                <th>Course</th>
+                <th>Batch Timings(Morning)</th>
+                <th>Batch Timings(Afternoon)</th>
+                <th>Batch Timings(Evening)</th>
+            </thead>
+            <tr>
+                <td>ITES</td>
+                <td>8:00 A - 10:00 AM</td>
+                <td>12:00 PM - 2:00 PM</td>
+                <td>6:00 PM - 8:00 PM</td>
+            </tr>
+            <tr>
+                <td>JAVA</td>
+                <td>9:00 AM - 11:00 AM</td>
+                <td>1:00 PM - 3:00 PM</td>
+                <td>7:00 PM - 9:00 PM</td>
+            </tr>
+            <tr>
+                <td>WMA</td>
+                <td>8:30 AM - 10:30 AM</td>
+                <td>12:30 PM - 2:30 PM</td>
+                <td>6:30 PM - 8:30 PM</td>
+            </tr>
+            <tr>
+                <td>Data Analytics</td>
+                <td>10:00 AM - 12:00 AM</td>
+                <td>2:00 PM - 4:00 PM</td>
+                <td>8:00 PM - 10:00 PM</td>
+            </tr>
+            <tr>
+                <td>AI/ML</td>
+                <td>7:00 AM - 9:00 AM</td>
+                <td>11:00 PM - 1:00 PM</td>
+                <td>5:00 PM - 7:00 PM</td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>Boost Your Employability with Nirmaan Organization</h3>
+    <p>
+        In the dynamic world of web developlment, staying ahead of the curve is crucial. Nirmaan organization not only
+        helps you stay
+        current with the latest industry trends but also provides you with
+    </p>
+    <p>
+        Don't miss out on the chance to enhance your web developlment skill. Check out Nirmaan organization today and
+        take the first step towards a brighter future in the world of web developlment!
+    </p>
+    <p>Thank You for reading till the end</p>
+    <div>
+        <strike>
+            <i>
+                I have also added web develpoment videos on our Nirmaan organization classroom
+            </i>
+        </strike>
+    </div>
+    <div>
+        <audio src="files/audio/r-heart-bit.mp3" controls></audio>
+    </div>
+
+    <p>Hope you like my other blog too.</p>
+    <div style="margin-left: 50px;">
+        <p><a href="">Please subscribe to Nirmaan organization.</a></p>
+        <p><a href="">Please share this video with your friends on all social networking sites.</a></p>
+    </div>
+
+    <div>
+        <h2>Feel free to contact us</h2>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62223.11841507683!2d77.4970348!3d12.9112629!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae150064964f0b%3A0x4359ce6825ba270d!2sNirmaan%20OrganizationSkillCentre!5e0!3m2!1sen!2sin!4v1720238915142!5m2!1sen!2sin"
+            width="1280" height="720" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    <div>
+        <fieldset>
+            <legend>HTML Form</legend>
+            <form action="submit">
+                <div>
+                    <label for="Username">Username</label>
+                    <input type="text" title="Username">
+                </div>
+
+                <div>
+                    <label for="email">Enter your email</label>
+                    <input type="email" title="Enter your email">
+                </div>
+
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="10" cols="30"></textarea>
+                </div>
+                <div>
+                    <label for="Radio Button">Radio Button - </label>
+                    <input type="radio" name="gender" title="male" value="male"> Male
+                    <input type="radio" name="gender" title="male" value="female">Female
+                </div>
+
+                <div>
+                    <label for="checkbox">Checkbox</label>
+                    <input type="checkbox" title="music" name="music" id="music">Music Lover
+                    <input type="checkbox" title="sports" name="sports" id="sports">Sports Lover
+                </div>
+
+                <div>
+                    <label for="select">Select box</label>
+                    <select title="country" name="country" id="country">
+                        <option name="country" value="INDIA" id="INDIA">INDIA</option>
+                        <option value="USA">USA</option>
+                        <option value="Africe">AFRICA</option>
+                        <option value="Atlanta">ATLANTA</option>
+                        <option value="England">ENGLAND</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="datalist">Datalist</label>
+                    <input title="course" list="course" name="course" id="course">
+
+                    <datalist id="course">
+                        <option value="WMA">
+                        <option value="AI/ML">
+                        <option value="Data Analytics">
+                        <option value="ITES">
+                        <option value="Python">
+                        <option value="JAVA">
+                    </datalist>
+                </div>
+                <input type="submit" name="submit" id="submit">
+                <input type="reset" name="reset" id="reset">
+
+            </form>
+        </fieldset>
+    </div>
+
+    <footer style="background-color: #beaeaed9;">Copyright &#169; All rights reserved | This template is made with 🖤 by
+        Nirmaan organization</footer>
 </body>
+
 </html>
