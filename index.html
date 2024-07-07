@@ -26,7 +26,13 @@
 
     figure {
         display: inline-block;
+        margin: 5px;
+    }
 
+    figcaption {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
     }
 
     #course_indi {
@@ -46,6 +52,11 @@
 
         border: 2px solid black;
     }
+
+    .info_form {
+        padding: 15px;
+
+    }
 </style>
 
 <body>
@@ -56,20 +67,21 @@
     </marquee>
     <hr style="border: 4px solid black" />
 
-    <span style="margin: 20px">
+    <span style="margin-left: 40px;font-size: 20px;">
         <a href="https://nirmaan.org/">Home</a>
         <a href="https://nirmaan.org/about-us/">About</a>
         <a href="https://nirmaan.org/education-page/">Services</a>
         <a href="https://nirmaan.org/contact-us/">Contact</a>
     </span>
 
-    <h2 id="info">hello, I am Varun K V</h2>
+    <h2 id="info">Hello, I am Varun K V</h2>
     <p style="text-align: center; font-family: 'calibri'; font-size: 20px">
         This Website is all about Website Developlment, Technical Tips and Designs
         Principle, Source Code and Programming Videos.
     </p>
 
     <div>
+
         <button>See my works</button>
         <button>Visit youtube</button>
     </div>
@@ -101,8 +113,8 @@
     </p>
 
 
+    <h2><b>Coding Knowledge</b></h2>
 
-    <b style="font-size: 20px; ">coding Knowledge</b>
 
     <div id="course_indi">
 
@@ -125,26 +137,26 @@
     </div>
     <details>
         <summary>
-            <u style="font-size: 25px;color: greenyellow;">Our Services</u>
+            <u style="font-size: 25px;color: green;">Our Services</u>
         </summary>
         <figure>
-            <img width="170" height="200" src="files/images/data_analytics.png" alt="DA">
+            <img width="240" height="200" src="files/images/data_analytics.png" alt="DA">
             <figcaption>Data Analytics</figcaption>
         </figure>
         <figure>
-            <img width="170" height="200" src="files/images/ites.jpg" alt="ITES">
+            <img width="240" height="200" src="files/images/ites.jpg" alt="ITES">
             <figcaption>ITES</figcaption>
         </figure>
         <figure>
-            <img width="170" height="200" src="files/images/javafull.png" alt="JAVA">
+            <img width="240" height="200" src="files/images/javafull.png" alt="JAVA">
             <figcaption>Java FullStack</figcaption>
         </figure>
         <figure>
-            <img width="170" height="200" src="files/images/mobile-app-.jpg" alt="MAD">
+            <img width="240" height="200" src="files/images/mobile-app-.jpg" alt="MAD">
             <figcaption>Mobile App Developlment</figcaption>
         </figure>
         <figure>
-            <img width="170" height="200" src="files/images/python.png" alt="python">
+            <img width="240" height="200" src="files/images/python.png" alt="python">
             <figcaption>Python</figcaption>
         </figure>
     </details>
@@ -240,7 +252,7 @@
             </i>
         </strike>
     </div>
-    <div>
+    <div style="margin-top: 20px;">
         <audio src="files/audio/r-heart-bit.mp3" controls></audio>
     </div>
 
@@ -251,15 +263,13 @@
     </div>
 
     <div>
-<!--PDF Iframe -->
+        <!--PDF Iframe -->
         <h2 style="color:red;">Declaration Form</h2>
-<!--         <iframe src="files/docs/Declaration Form-Online Batch.pdf" width="640" height="480" allow="autoplay"></iframe> -->
+        <!--<iframe src="files/docs/Declaration Form-Online Batch.pdf" width="640" height="480" allow="autoplay"></iframe> -->
+        <embed src="files/docs/Declaration Form-Online Batch.pdf" width="700" height="500" type="application/pdf">
 
-<embed src="files/docs/Declaration Form-Online Batch.pdf" width="500" height="375"
-type="application/pdf">
-        
         <h2>Feel free to contact us</h2>
-<!--Google Maps  -->
+        <!--Google Maps  -->
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62223.11841507683!2d77.4970348!3d12.9112629!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae150064964f0b%3A0x4359ce6825ba270d!2sNirmaan%20OrganizationSkillCentre!5e0!3m2!1sen!2sin!4v1720238915142!5m2!1sen!2sin"
             width="1280" height="720" style="border:0;" allowfullscreen="" loading="lazy"
@@ -269,34 +279,36 @@ type="application/pdf">
     <div>
         <fieldset>
             <legend>HTML Form</legend>
-            <form action="submit">
-                <div>
+            <form action="">
+
+                <div class="info_form">
                     <label for="Username">Username</label>
                     <input type="text" title="Username">
                 </div>
 
-                <div>
+                <div class="info_form">
                     <label for="email">Enter your email</label>
                     <input type="email" title="Enter your email">
                 </div>
 
-                <div>
+                <div class="info_form">
                     <label for="message">Message</label>
                     <textarea name="message" id="message" rows="10" cols="30"></textarea>
                 </div>
-                <div>
+
+                <div class="info_form">
                     <label for="Radio Button">Radio Button - </label>
                     <input type="radio" name="gender" title="male" value="male"> Male
                     <input type="radio" name="gender" title="male" value="female">Female
                 </div>
 
-                <div>
+                <div class="info_form">
                     <label for="checkbox">Checkbox</label>
                     <input type="checkbox" title="music" name="music" id="music">Music Lover
                     <input type="checkbox" title="sports" name="sports" id="sports">Sports Lover
                 </div>
 
-                <div>
+                <div class="info_form">
                     <label for="select">Select box</label>
                     <select title="country" name="country" id="country">
                         <option name="country" value="INDIA" id="INDIA">INDIA</option>
@@ -306,7 +318,8 @@ type="application/pdf">
                         <option value="England">ENGLAND</option>
                     </select>
                 </div>
-                <div>
+
+                <div class="info_form">
                     <!-- Match the list name and the id names -->
                     <label for="datalist">Datalist</label>
                     <input title="course" list="courses" name="course" id="course">
@@ -320,45 +333,47 @@ type="application/pdf">
                         <option value="JAVA">
                     </datalist>
                 </div>
-                <div>
+
+                <div class="info_form">
                     <label for="range">Range</label>
-                    <input title="range" type="range" max="100">
+                    <input id="range_" title="range" type="range" max="100">
                 </div>
 
-                <div>
+                <div class="info_form">
                     <label for="DOB">Birth Date</label>
                     <input type="date" title="DOB">
                 </div>
 
-                <div>
+                <div class="info_form">
                     <label for="time">Appointment Time</label>
                     <input title="atime" type="time">
                 </div>
 
-                <div>
+                <div class="info_form">
                     <label for="color">Favourite Colour</label>
                     <input title="fcolor" type="color" name="fav-color" id="fcolor">
                 </div>
 
-                <div>
+                <div class="info_form">
                     <label for="web">Website</label>
                     <input type="url" title="web" name="web">
                 </div>
 
-                <div>
+                <div class="info_form">
                     <label for="search">Seach Query</label>
                     <input type="search" title="search" name="search">
                 </div>
 
-                <div>
+                <div class="info_form">
                     <label for="myear">Month & Year</label>
                     <input type="month" title="myear">
                 </div>
 
-                <div>
+                <div class="info_form">
                     <label for="vweek">Vacation Week</label>
                     <input type="week" title="vweek">
                 </div>
+
                 <input type="submit" name="submit" id="submit">
                 <input type="reset" name="reset" id="reset">
 
@@ -366,7 +381,8 @@ type="application/pdf">
         </fieldset>
     </div>
 
-    <footer style="background-color: #beaeaed9;">Copyright &#169; All rights reserved | This template is made with 🖤 by
+    <footer style="background-color: #beaeaed9;text-align:center;">Copyright &#169; All rights reserved | This template
+        is made with 🖤 by
         Nirmaan organization</footer>
 </body>
 
